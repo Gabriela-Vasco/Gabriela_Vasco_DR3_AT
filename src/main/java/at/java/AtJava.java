@@ -8,9 +8,5 @@ public class AtJava {
         UsuarioController usuarioController = new UsuarioController();
 
         usuarioController.respostasRequisicoes();
-
-        Spark.awaitInitialization();
-
-        Spark.awaitStop();
     }
 }
